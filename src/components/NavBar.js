@@ -1,6 +1,7 @@
 
 import CartWidget from "./CartWidget.js";
 import Contenedor from "./Contenedor.js";
+import Logeo from "./Logeo.js"
 
 const NavBar = () => {
     return (
@@ -12,10 +13,13 @@ const NavBar = () => {
     <span className="actual-text">&nbsp;sspstyle&nbsp;</span>
     <span className="hover-text" aria-hidden="true">&nbsp;sspstyle&nbsp;</span>
 </button></a>
+<Contenedor/>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
       <span className="navbar-toggler-icon"></span>
     </button>
+    
     <div className="collapse navbar-collapse" id="collapsibleNavbar">
+    
       <ul className="navbar-nav mx-auto ">
         <li className="nav-item">
           <a className="nav-link" href="/">Remeras</a>
@@ -29,13 +33,13 @@ const NavBar = () => {
         <li className="nav-item">
           <a className="nav-link" href="/">Contacto</a>
         </li>
+        <Logeo/>
       </ul>
       </div>
     <CartWidget/> 
     </div>
-    <Contenedor/> 
+   
 </nav>  
-
     )
 }
  export default NavBar;

@@ -2,14 +2,15 @@
 const Logeo = () => {
     return (
         <>
-        <ul>
-        <li className="nav-item">
-          <a className="nav-link" href="/">Registrarme</a>
+        
+        <li className="nav-item-2">
+          <a className="nav-link" href="/"> Registrarme</a>
         </li>
-         <li className="nav-item">
-         <a className="nav-link" href="/">Entrar</a>
+         <li className="nav-item-2">
+         <a className="nav-link" href="/">Mi cuenta</a>
        </li>
-       </ul>
+       
+       
        </>
     )
 }

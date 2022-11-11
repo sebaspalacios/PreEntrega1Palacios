@@ -1,6 +1,7 @@
 const Snoop = (props) => {
     return (
         <>
+        <div className="cartas">
 <div className="card mb-3 p-2" style={{"width": "100px;"}}>
   <div className="row g-5">
     <div className="col-md-2 ">
@@ -19,6 +20,7 @@ const Snoop = (props) => {
       </div>
     </div>
   </div>
+</div>
 </div>
         </>
     )
