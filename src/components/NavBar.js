@@ -1,14 +1,15 @@
 
 import CartWidget from "./CartWidget.js";
 import Contenedor from "./Contenedor.js";
-import Logeo from "./Logeo.js"
+import Logeo from "./Logeo.js";
+import {Link} from 'react-router-dom';
 
 const NavBar = () => {
     return (
         
      <nav className="navbar navbar-expand-sm bg-dark navbar-dark">
-  <div className="container-fluid"> 
-    <a className="navbar-brand" href="/" ><img src="./imgssp.png" width="80" className="rounded-circle" alt="Cinque Terre"></img></a>
+  <div className="container-fluid"> </div>
+  <div className="navbar-brand"><Link to='/' img src="./imgssp.png" width="80" className="rounded-circle" alt="Cinque Terre"></Link>
     <a className="navbar-brand" href="/" > <button data-text="Awesome" className="button">
     <span className="actual-text">&nbsp;sspstyle&nbsp;</span>
     <span className="hover-text" aria-hidden="true">&nbsp;sspstyle&nbsp;</span>

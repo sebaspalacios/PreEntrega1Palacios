@@ -6,7 +6,7 @@ const CartWidget = ()=> {
         <>
         <div>
         <HiShoppingCart color='white' fontSize={25}></HiShoppingCart>
-        <span class="badge bg-primary rounded-pill">3</span>
+        <span className="badge bg-primary rounded-pill">3</span>
         </div>
         <div>
         <Logeo/>
