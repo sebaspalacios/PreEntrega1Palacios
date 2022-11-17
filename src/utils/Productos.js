@@ -4,7 +4,7 @@ export const productos = [
     {
        id:1,
        Titulo: "Remeron gris",
-       Precio: 2999,
+       Precio: 5900,
        stock: 3,
        Marca:"You Can",
        Envio: "envios a todo el pais",
@@ -15,7 +15,7 @@ export const productos = [
     {
         id:2,
         Titulo: "Remeron verde",
-        Precio: 2699,
+        Precio: 4600,
         stock: 6,
         Marca:"Live Style",
         Envio: "envios a todo el pais",
@@ -25,7 +25,7 @@ export const productos = [
      {
        id:3,
         Titulo: "Musculosa blanca",
-        Precio: 1499,
+        Precio: 3500,
         stock: 2,
         Marca:"You Can",
         Envio: "envios a todo el pais",
@@ -36,7 +36,7 @@ export const productos = [
      {
        id:4,
         Titulo: "Conjunto Beige",
-        Precio: 6999,
+        Precio: 12999,
         stock: 8,
         Marca:"Golden Men",
         Envio: "envios a todo el pais",
@@ -46,7 +46,7 @@ export const productos = [
      {
       id:5,
       Titulo: "Remera negra",
-      Precio: 2199,
+      Precio: 5000,
       stock: 4,
       Marca:"New Day",
       Envio:"envios a todo el pais",
@@ -57,7 +57,7 @@ export const productos = [
    {
       id:6,
       Titulo: "Jean mom",
-      Precio: 5999,
+      Precio: 9000,
       stock: 1,
       Marca: "Mom men",
       Envio: "envios a todo el pais",
@@ -67,7 +67,7 @@ export const productos = [
    {
       id:7,
       Titulo: "Jean chupin oscuro",
-      Precio: 3999,
+      Precio: 6700,
       stock: 0,
       Marca: "Bando",
       Envio: "envios a todo el pais",
@@ -77,7 +77,7 @@ export const productos = [
    {
       id:8,
       Titulo: "Pantalon cargo verde",
-      Precio: 4599,
+      Precio: 7900,
       stock: 10,
       Marca: "Bando",
       Envio: "envios a todo el pais",
@@ -87,7 +87,7 @@ export const productos = [
    {
       id:9,
       Titulo: "Pantalon cargo beige",
-      Precio: 4000,
+      Precio: 7900,
       stock: 8,
       Marca: "Bando",
       Envio: "envios a todo el pais",
@@ -97,7 +97,7 @@ export const productos = [
    {
       id:10,
       Titulo: "Pantalon cargo negro",
-      Precio: 4800,
+      Precio: 7900,
       stock: 6,
       Marca: "Bando",
       Envio: "envios a todo el pais",
@@ -106,32 +106,43 @@ export const productos = [
    },
    {
       id:11,
-      Titulo: "Billetera O'neill",
-      Precio: 2999,
-      stock: 2,
-      Marca: "O'neill",
+      Titulo: "Piluso Quiksilver",
+      Precio: 11000,
+      stock: 7,
+      Marca: "Quiksilver",
       Envio: "envios a todo el pais",
-      imagen: ["https://f.fcdn.app/imgs/ef0cf4/www.oneilluruguay.com.uy/surfuy/0850/original/catalogo/2100010180131/1920-1200/billetera-o-neill-pocketbook-gris.jpg"],
+      imagen: ["https://i.ebayimg.com/images/g/iisAAOSwQJBhgp6k/s-l500.jpg"],
       categoryId: 'accesorios'
    },
    {
       id:12,
+      Titulo: "Gorra Rusty",
+      Precio: 6500,
+      stock: 7,
+      Marca: "Rusty",
+      Envio: "envios a todo el pais",
+      imagen: ["https://http2.mlstatic.com/D_NQ_NP_901994-MLA29535380045_032019-O.jpg"],
+      categoryId: 'accesorios'
+   },
+   
+   {
+      id:13,
       Titulo: "Boxer O'neill",
       Precio: 2999,
       stock: 11,
       Marca: "O'neill",
       Envio: "envios a todo el pais",
-      imagen: ["https://www.boxers.be/img/LDn84QFeeh1jcop8c8PUt7jOLZbZvTI3sMsF2VwOko4/resize:fit:700:700/aHR0cHM6Ly93d3cuYm94ZXJzLmJlL21lZGlhL2NhdGFsb2cvcHJvZHVjdC9vL24vb25laWxsXzkwMDA4My0zMDY2XzMtcGFjay5qcGc_d2lkdGg9NzAwJmhlaWdodD03MDAmc3RvcmU9Ym94ZXJzX2JlJmltYWdlLXR5cGU9aW1hZ2U.jpg?type=catalog"],
+      imagen: ["https://d010204.bibloo.cz/_galerie/varianty/109/1092758-z.jpg"],
       categoryId: 'accesorios'
    },
    {
-      id:13,
-      Titulo: "Gorra Rusty",
-      Precio: 2500,
-      stock: 7,
-      Marca: "Rusty",
+      id:14,
+      Titulo: "Billetera O'neill",
+      Precio: 4000,
+      stock: 2,
+      Marca: "O'neill",
       Envio: "envios a todo el pais",
-      imagen: ["https://http2.mlstatic.com/D_NQ_NP_901994-MLA29535380045_032019-O.jpg"],
+      imagen: ["https://f.fcdn.app/imgs/ef0cf4/www.oneilluruguay.com.uy/surfuy/0850/original/catalogo/2100010180131/1920-1200/billetera-o-neill-pocketbook-gris.jpg"],
       categoryId: 'accesorios'
    },
 ]

@@ -16,7 +16,7 @@ const Left = styled.div`
 `;
 
 const Center = styled.div`
-    flex: 1;
+    flex: 2;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -98,7 +98,7 @@ const ProductContainer = styled.div`
 `; 
 
 const Image = styled.img`
-    height: 75%;
+    height: 90%;
     z-index: 2;
 `;
 
