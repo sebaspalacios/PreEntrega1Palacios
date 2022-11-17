@@ -4,7 +4,7 @@ import { DetailContainer, WrapperDetail, ImgContainer, ImageDetail, InfoContaine
 const ItemDetail = ({ item }) => {
 
     const onAdd = (qty) => {
-        alert("You have selected " + qty + " items.");
+        
     }
 
     return (
@@ -20,7 +20,7 @@ const ItemDetail = ({ item }) => {
             <InfoContainer>
             <Titulo>{item.Titulo}</Titulo>
             <Desc>{item.descripcion}</Desc>
-            <Precio>$ {item.Precio}</Precio>
+            <Precio>${item.Precio}</Precio>
             </InfoContainer>
             <ItemCount stock={item.stock} initial={1} onAdd={onAdd} />
             </WrapperDetail>

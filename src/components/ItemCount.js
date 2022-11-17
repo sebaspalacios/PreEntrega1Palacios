@@ -1,5 +1,4 @@
-import { Button } from '@material-ui/core';
-import { Add, Remove } from '@material-ui/icons';
+import { Button } from '@mui/material';
 import { useEffect, useState } from 'react';
 import { ProductAmountContainer, ProductAmount } from './StyledComponents';
 
@@ -23,9 +22,9 @@ const ItemCount = ({ stock = 0, initial = 1,  onAdd }) => {
     }
     return (
         <ProductAmountContainer>
-            <Button variant="text" onClick={increment}><Add /></Button>
+            <Button variant="text" onClick={increment}>+</Button>
             <ProductAmount>{count}</ProductAmount>
-            <Button variant="text" onClick={decrement}><Remove /></Button>
+            <Button variant="text" onClick={decrement}>-</Button>
             {
                 stock
                 ? <Button variant="contained" color="primary" onClick={() => onAdd(count)}>Agg al carro</Button>

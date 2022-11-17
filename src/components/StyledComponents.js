@@ -1,5 +1,5 @@
 
-import styled from "./styled-components";
+import styled from "styled-components";
 
 
 const Wrapper = styled.div`
@@ -68,7 +68,7 @@ const Info = styled.div`
     position: absolute;
     top: 0px;
     left: 0px;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color:rgba(0, 0, 0, 0.2);
     z-index: 3;
     diplay: flex;
     align-items: center;
@@ -84,22 +84,20 @@ const ProductContainer = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #f5fbfd;
+    background-color: #dfdfdf;
     position: relative;
     &:hover ${Info}{
         opacity: 1;
     }
 `;
 
-const Circle = styled.div`
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+ const Circle = styled.div`
+   
     background-color: white;
-    position: absolute;
-`;
+   
+`; 
 
-const imagen = styled.img`
+const Image = styled.img`
     height: 75%;
     z-index: 2;
 `;
@@ -108,14 +106,14 @@ const Icon = styled.div`
     font-size: 12px;
     width: 100px;
     height: 40px;
-    background-color: white;
+    background-color: #949090;
     display: flex;
     align-items: center;
     justify-content: space-around;
     margin: 10px;
     transition: all 0.5s ease;
     &:hover {
-        background-color: #e9f5f5;
+        background-color: #37FF8B;
         transform: scale(1.3);
     }
 `;
@@ -161,6 +159,6 @@ export {
     Wrapper, Logo, MenuItem, Left, Center, Right, 
     ProductAmountContainer, ProductAmount, 
     ProductsContainer, ProductContainer,
-    Circle, imagen, Info, Icon,
+    Circle, Image, Info, Icon,
     DetailContainer, WrapperDetail, ImgContainer, ImageDetail, InfoContainer, Titulo, Desc, Precio
 }

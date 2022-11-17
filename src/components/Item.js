@@ -1,21 +1,24 @@
-import { DescriptionOutlined, InfoOutlined, LocalOfferOutlined } from '@material-ui/icons';
-import { Link } from 'react-router-dom';
-import { ProductContainer, Circle, Image, Info, Icon } from './styledComponents';
 
-const Item = ({ id, stock, Precio,Titulo, pictureUrl }) => {
+
+import { Link } from 'react-router-dom';
+import { ProductContainer, Image, Info, Icon } from './StyledComponents';
+
+const Item = ({ id, stock, Precio,Marca, pictureUrl }) => {
     return (
         <ProductContainer>
-            <Circle />
             <Image src={pictureUrl} />
             <Info>
             <Icon>
-            <LocalOfferOutlined /><strong>$ {Precio}</strong>
+            {Marca}
             </Icon>
             <Icon>
-            <DescriptionOutlined />{stock} unid.
+           <strong>${Precio}</strong>
+            </Icon>
+            <Icon>
+            {stock} unidades
             </Icon>
             <Icon style={{cursor: "pointer"}}>
-            <Link to={`/item/${id}`}><InfoOutlined />Detalle</Link>
+            <Link to={`/item/${id}`}>Detalle</Link>
             </Icon>
             </Info>
         </ProductContainer>

@@ -1,6 +1,6 @@
 import React from 'react'
 import {HiShoppingCart} from 'react-icons/hi'
-import Logeo from './Logeo'
+/* import Logeo from './Logeo' */
 const CartWidget = ()=> {
     return (
         <>
@@ -9,7 +9,7 @@ const CartWidget = ()=> {
         <span className="badge bg-primary rounded-pill">3</span>
         </div>
         <div>
-        <Logeo/>
+       {/*  <Logeo/> */}
         </div>
         </>
     )
