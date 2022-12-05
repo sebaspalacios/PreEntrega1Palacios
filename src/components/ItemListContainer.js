@@ -1,5 +1,3 @@
-/* import NavBar from '../components/NavBar' */
-//import Snoop from '../components/Snoop'
 import {useState, useEffect} from 'react'
 import {productos} from '../utils/Productos'
 import {customFetch} from '../utils/customFetch'

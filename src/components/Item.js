@@ -1,8 +1,6 @@
-
-
+import { InfoOutlined, LocalOfferOutlined } from '@mui/icons-material';
 import { Link } from 'react-router-dom';
 import { ProductContainer, Image, Info, Icon } from './StyledComponents';
-
 const Item = ({ id, stock, Precio,Marca, pictureUrl }) => {
     return (
         <ProductContainer>
@@ -12,13 +10,13 @@ const Item = ({ id, stock, Precio,Marca, pictureUrl }) => {
             {Marca}
             </Icon>
             <Icon>
-           <strong>${Precio}</strong>
+           <LocalOfferOutlined/><strong>${Precio}</strong>
             </Icon>
             <Icon>
             {stock} unidades
             </Icon>
             <Icon style={{cursor: "pointer"}}>
-            <Link to={`/item/${id}`}>Ver</Link>
+            <Link to={`/item/${id}`}><InfoOutlined/>Ver</Link>
             </Icon>
             </Info>
         </ProductContainer>
