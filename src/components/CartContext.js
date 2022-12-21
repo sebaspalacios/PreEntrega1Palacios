@@ -40,12 +40,12 @@ const CartContextProvider = (props) => {
 
     const calcTotalPerItem = (idItem) => {
         let itemLocation = cartList.map(item => item.idItem).indexOf(idItem);
-        return cartList[itemLocation].precioItem * cartList[itemLocation].qtyItem;
+        return cartList[itemLocation].PrecioItem * cartList[itemLocation].qtyItem;
     }
 
     const sumProducts = () => {
         let array = cartList.map(item => calcTotalPerItem(item.idItem));
-        let sum = array.reduce((prod, item) => prod = prod + item);
+        let sum = array.reduce((productos, item) => productos = productos + item);
         return sum;
     }
 
